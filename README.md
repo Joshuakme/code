@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](../code/public/images/desktop-screenshot.jpg)
-![Mobile View](../code/public/images/mobile-screenshot.jpg)
+![Desktop View](../public/images/desktop-screenshot.jpg)
+![Mobile View](../public/images/mobile-screenshot.jpg)
 
 ### Links
 
