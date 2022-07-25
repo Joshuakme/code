@@ -28,12 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop View](../Design/design/desktop-screenshot.jpg)
+![Mobile View](../Design/design/mobile-screenshot.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://joshuakme.github.io/fm-expenses-chart-component-main/](https://joshuakme.github.io/fm-expenses-chart-component-main/)
 
 ## My process
 
