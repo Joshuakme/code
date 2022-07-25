@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-dynamic-expenses-chart-component-reactjs-iL0cQT40CS](https://www.frontendmentor.io/solutions/responsive-dynamic-expenses-chart-component-reactjs-iL0cQT40CS)
 - Live Site URL: [https://joshuakme.github.io/fm-expenses-chart-component-main/](https://joshuakme.github.io/fm-expenses-chart-component-main/)
 
 ## My process
