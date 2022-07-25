@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// Import Components
+import BarChart from "./components/bar-chart/bar-chart";
+import ChartHeader from "./components/bar-chart/chart-header";
+// Import Styles
+import "./styles/app.css";
+// Import Data
+import dataList from "./data.json";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <section className="card">
+        <ChartHeader />
+        <div className="card-content">
+          <BarChart dataList={dataList} />
+
+          <div className="summary">
+            <div className="summary-left">
+              <h3>Total this month</h3>
+              <p>$478.33</p>
+            </div>
+            <div className="summary-right">
+              <p>+2.4%</p>
+              <h3>from last month</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
 

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  /* Backgroud Color */
+  --bg-primary-300: hsla(10, 79%, 65%, 0.653);
+  --bg-primary-500: hsl(10, 79%, 65%);
+  --bg-secondary-300: hsla(186, 34%, 60%, 0.55);
+  --bg-secondary-500: hsl(186, 34%, 60%);
+
+  --bg-neutral-900: hsl(25, 47%, 15%);
+  --bg-neutral-700: hsl(28, 10%, 53%);
+  --bg-neutral-500: hsl(27, 66%, 92%);
+  --bg-neutral-300: hsl(33, 100%, 98%);
+
+  /* Text\ */
+  --text-neutral-900: hsl(25, 47%, 15%);
+  --text-neutral-700: hsl(28, 10%, 53%);
+  --text-neutral-500: hsl(27, 66%, 92%);
+  --text-neutral-300: hsl(33, 100%, 98%);
+
+  --text-default-size: 112.5%;
+
+  --ff-primary: "Outfit", sans-serif;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--text-default-size);
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--text-neutral-500);
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+  margin: auto;
+  width: 90vw;
+  max-width: 20rem;
+}
+
+.card-content {
+  padding: 1rem;
+  background-color: var(--bg-neutral-300);
+  border-radius: 12px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 2px solid var(--bg-neutral-500);
+}
+
+.summary .summary-left h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--text-neutral-700);
+}
+
+.summary .summary-left p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-neutral-900);
+}
+
+.summary .summary-right h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-neutral-700);
+}
+
+.summary .summary-right p {
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-neutral-900);
+}
+
+@media (min-width: 375px) {
+  .card {
+    max-width: 24rem;
+  }
+}

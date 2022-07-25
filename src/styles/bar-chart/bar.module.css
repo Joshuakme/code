@@ -1,0 +1,68 @@
+.barContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0.5em 0.2em;
+  text-align: center;
+}
+
+.barContainer div {
+  position: relative;
+  width: 100%;
+  min-width: 1rem;
+  min-height: 1rem;
+  max-height: 10rem;
+  background-color: var(--bg-primary-500);
+  margin-bottom: 0.3em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.barContainer div:hover {
+  background-color: var(--bg-primary-300);
+}
+
+[data-amount] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-amount]:hover::after {
+  content: "$" attr(data-amount);
+  position: absolute;
+  top: -2rem;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.3rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--bg-neutral-300);
+  background-color: var(--bg-neutral-900);
+  border-radius: 5px;
+}
+
+.barContainer:first-child {
+  margin-left: 0;
+}
+
+.barContainer:last-child {
+  margin-right: 0;
+}
+
+.barContainer div[data-active="true"] {
+  background-color: var(--bg-secondary-500);
+}
+
+.barContainer div[data-active="true"]:hover {
+  background-color: var(--bg-secondary-300);
+}
+
+.barContainer h3 {
+  font-size: 0.7rem;
+  color: var(--text-neutral-700);
+}
