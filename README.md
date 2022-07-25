@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-dynamic-expenses-chart-component-reactjs-iL0cQT40CS](https://www.frontendmentor.io/solutions/responsive-dynamic-expenses-chart-component-reactjs-iL0cQT40CS)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-dynamic-expenses-chart-component-reactjs-RPI-eXUf_4](https://www.frontendmentor.io/solutions/responsive-dynamic-expenses-chart-component-reactjs-RPI-eXUf_4)
 - Live Site URL: [https://fm-expenses-chart-component-main.vercel.app](https://fm-expenses-chart-component-main.vercel.app)
 
 ## My process
